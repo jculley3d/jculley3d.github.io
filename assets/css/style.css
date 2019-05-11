@@ -286,6 +286,7 @@ video {
 
 .contact {
 	background-color: grey;
+	color: white;
 }
 
 .contact .content {
@@ -438,6 +439,15 @@ footer {
 /* Small screen */
 @media screen and (max-width: 450px) {
 	.intro .title {
-		margin: 0 auto;
+		margin: 2rem auto;
+	}
+
+	.projects {
+		padding: 5rem 2rem;
+	}
+
+	.social {
+		margin: 0;
+		padding: 2rem;
 	}
 }
