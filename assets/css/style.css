@@ -210,6 +210,23 @@ video {
 	text-align: center;
 }
 
+.paginator {
+	grid-column: 1/-1;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+}
+
+.paginator .links {
+	grid-column: 2;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.paginator .links a {
+	text-decoration: underline;
+}
+
 .project-content {
 	background-color: white;
 	line-height: 1.5rem;
@@ -444,6 +461,14 @@ footer {
 
 	.projects {
 		padding: 5rem 2rem;
+	}
+
+	.paginator {
+		grid-template-columns: 1fr;
+	}
+
+	.paginator .links {
+		grid-column: 1;
 	}
 
 	.social {
